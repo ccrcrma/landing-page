@@ -1,0 +1,9 @@
+.social-icons{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+.social-icons li {
+    margin-right: .8rem;
+    list-style-type: none;
+}
