@@ -4,9 +4,11 @@
     padding: 0;
 }
 .social-icons li {
-    margin-right: .8rem;
+    margin-right: 2rem;
     list-style-type: none;
 }
+
+
 
 .hero {
     position: relative;
@@ -34,4 +36,61 @@ div.overlay{
 
 .colored-navbar{
     background-color: #24355C;
+}
+
+.colored-navbar .facebook {
+    color: #55acee;
+}
+
+.colored-navbar .twitter {
+    color: #3b5998;
+}
+
+
+.colored-navbar .google {
+    color: #dc4e41;
+}
+
+.twitter, .facebook, .google {
+    color: #ffffff8c;
+}
+
+.colored-navbar .navbar-nav .nav-link {
+    color: beige;
+}
+
+.feature-icon{
+    color: orange;
+    font-size: 3rem;
+}
+
+.section-header{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.section-text {
+    color: #6c757d;
+    margin-bottom: 2rem;
+}
+
+.col-header{
+    margin:1.5rem 0;
+}
+
+section .section-text:nth-of-type(1) {
+    margin-bottom: 4rem;
+}
+
+section {
+    text-align: center;
+}
+
+section .container {
+    border-bottom: 2px solid #f8f9fa;
+    padding: 5rem 0; 
+}
+
+.img-wrapper{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
