@@ -119,25 +119,29 @@ section .container {
     background-color:rgb(248 249 250 / 58%);
 }
 
-.contact input, .contact  textarea {
+.contact .form-control {
     color:#000000a6;
     padding-bottom:.2rem;
-    display: inline-block;
     border: none;
     background:none;
     border-bottom:  2px solid #21252912;
 }
 
-.contact input:focus, .contact textarea:focus {
-    outline: none;
+.contact .form-control:focus{
+    box-shadow: none;
     border-bottom: 2px solid #1c71c0a6;
 }
 
-.contact input:focus  .form-icon{
+
+.form-icon{
+    color:#6c757d;
+    font-size: calc(1.125rem + .6vw);
+}
+.blue-icon{
     color:  #1c71c0a6;
 }
 
-.form-icon{
-    margin-right: .3rem;
-    font-size: calc(1.125rem + .6vw);
+.input-group-text{
+    background: none;
+    border: none;
 }
