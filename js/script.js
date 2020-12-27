@@ -14,9 +14,11 @@ window.addEventListener("load", function(event){
 
     Object.values(document.querySelectorAll(".form-control")).forEach(function(elem){
         elem.onfocus = function(){
-            console.log(elem.previousElementSibling.firstChild)
-            elem.previousElementSibling.firstChild.classList.add("blue-icon");
+            elem.previousElementSibling.childNodes[1].classList.add("blue-icon");
         }
+        elem.addEventListener("focusout", function(){
+            elem.previousElementSibling.childNodes[1].classList.remove("blue-icon");
+        });
     });
 
 });
