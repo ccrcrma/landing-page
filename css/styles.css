@@ -145,3 +145,41 @@ section .container {
     background: none;
     border: none;
 }
+
+.nav-link >.fab {
+    color: white;
+}
+.footer {
+    background-color: #24355C;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.footer .col-header {
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+    position: relative;
+    
+}
+
+.footer .col-header::after{
+    display: block;
+    content: "";
+    width: 5rem;
+    position: absolute;
+    bottom:.2rem;
+    left:0px;
+    border: 1px solid #6565e4;
+
+}
+
+.footer  ul {
+    list-style-type: none;
+}
+
+.footer li {
+    display: block;
+    padding: .15rem 0;
+}
